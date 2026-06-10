@@ -1,0 +1,18 @@
+git config --global user.name ane-noelle
+git config --global user.email anenoelle60@gmail.com
+
+--configuracao do firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyBX0zrFsuWcRBtoBcV5aE8Kc3OfsM1G-JY",
+  authDomain: "tictactoe-realtime5.firebaseapp.com",
+  databaseURL: "https://tictactoe-realtime5-default-rtdb.firebaseio.com",
+  projectId: "tictactoe-realtime5",
+  storageBucket: "tictactoe-realtime5.firebasestorage.app",
+  messagingSenderId: "1054428188788",
+  appId: "1:1054428188788:web:a551980eac283e87628121",
+  measurementId: "G-461V1Y9EXJ"
+};
+
+
+-- Criar o projeto
+npx create-expo-app tictactoe --template blank-typescript
